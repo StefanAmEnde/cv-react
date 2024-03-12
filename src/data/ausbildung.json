@@ -1,0 +1,26 @@
+[
+    {
+        "from": "04/2022",
+        "to": "01/2024",
+        "institution": "Universität Bayreuth",
+        "description": "Master Informatik - 1,4"
+    },
+    {
+        "from": "09/2021",
+        "to": "02/2022",
+        "institution": "Universität Côte d'Azur",
+        "description": "Auslandssemster im Master Informatik"
+    },
+    {
+        "from": "10/2018",
+        "to": "09/2021",
+        "institution": "Universität Bayreuth",
+        "description": "Bachelor Informatik - 1,6"
+    },
+    {
+        "from": "09/2010",
+        "to": "06/2018",
+        "institution": "Hochfranken Gymnasium Naila",
+        "description": "Abitur - 1,9"
+    }
+]
