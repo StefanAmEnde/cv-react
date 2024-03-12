@@ -210,7 +210,7 @@ function App() {
           }
         </Col>
         <Col className='col-3' style={{ background: '#530087' }}>
-          <Image style={{ marginTop: 15, display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src='./profile-picture.jpg' className='profile-picture' />
+          <Image style={{ marginTop: 15, display: 'block', marginLeft: 'auto', marginRight: 'auto' }} src='./profile-picture.png' className='profile-picture' />
           <Container fluid style={{ marginLeft: 15, marginTop: 15 }}>
             <Row>
               <Col className='col-auto'>
