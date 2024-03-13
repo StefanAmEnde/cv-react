@@ -23,7 +23,7 @@ function App() {
   const formation: Education[] = require('./data/formation.json')
   const ausbildung: Education[] = require('./data/ausbildung.json')
   const education: Education[] = require('./data/education.json')
-  const [language, setLanguage] = useState(Language.FR)
+  const [language, setLanguage] = useState(Language.EN)
 
   return (
     <Container>
@@ -69,7 +69,7 @@ function App() {
           <p className='description'>
             {language === Language.FR && "Ayant fini mes études en informatique en janvier de cette année à l'âge de 23 ans, je suis désormais à la recherche du prochain challange dans mon parcours professionel. Passioné par les technologies digitales, je suis particulièrement intéressé par le monde du web. Par ailleurs, je suis toujours motivé pour élargir mon horizon en apprenant de nouveaux langages, frameworks et technologies."}
             {language === Language.DE && 'Nachdem ich im Januar diesen Jahres mein Informatikstudium im Alter von 23 Jahren erfolgreich abgeschlossen habe, bin ich nun auf der Suche nach der nächsten beruflichen Herausforderung. Begeistert von digitalen Technologien, interessiere ich mich besonders für die Welt des Webs. Außerdem bin ich stets motiviert meinen Horizont zu erweitern und neue Programmiersprachen, Frameworks und Technologien zu lernen.'}
-            {language === Language.EN && 'After having finished my studies in computer science in january this year at the age of 23 I am now looking for the next challenge in my professional career. Passionate about digital technologies, I am particularly interested the world of the web. Moreover, I am always motivated to broaden my horizon by learning new programming languages, frameworks and technologies.'}
+            {language === Language.EN && 'After having finished my studies in computer science in january this year at the age of 23, I am now looking for the next challenge in my professional career. Passionate about digital technologies, I am particularly interested in web domain. Moreover, I am always motivated to broaden my horizon by learning new programming languages, frameworks and technologies.'}
           </p>
           <h3>
             {language === Language.FR && 'Formation'}
@@ -141,7 +141,7 @@ function App() {
               }
               {language === Language.DE &&
                 <Project language={language} title="Studienprojekt" subtitle='06/2022 - 07/2022' description={
-                  <p className='description'>Umsetzung eines Empfehlungssystem für Universitätskurse. Mitarbeit nur am Frontend mit <span style={bold}>React</span>.</p>
+                  <p className='description'>Umsetzung eines Empfehlungssystems für Universitätskurse. Mitarbeit nur am Frontend mit <span style={bold}>React</span>.</p>
                 } />
               }
               {language === Language.EN &&
