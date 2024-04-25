@@ -8,7 +8,6 @@ import { PiSoccerBallFill, PiMotorcycleFill } from "react-icons/pi";
 import Project from './Project';
 import { useState } from 'react';
 import EducationItem from './EducationItem';
-import React from 'react';
 
 export interface Education {
   from: string,
